@@ -1,158 +1,82 @@
-@-moz-document url-prefix("https://drive.google.com/drive/") {
-div[role="document"], div[role="document"] pre {
-    background-color: #404040 !important;
-    color: white !important;
-}
-
-div[role="document"] img.a-b-Xa-La-Ua { filter: invert(1); }
-}
-
-@-moz-document domain("openweathermap.org") {
 body {
-    color: white;
-    background-color: #48484A;
-}
-
-.documentation div.api, .documentation .response div.api {
-    background-color: #5e5e5e;
+    background-color: var(--ic-brand-font-color-dark);
     color: white;
 }
 
-.documentation code {
-    color: white;
-    background-color: transparent;
+.large.ic-Dashboard-header__layout {
+    background-color: var(--ic-brand-font-color-dark);
 }
 
-.documentation .sub {
-    color: #cdcdcd;
+.unpublished_courses_redesign .ic-DashboardCard__box__header { background-color: var(--ic-brand-font-color-dark); }
+
+.btn, .Button, .ui-button {
+    color: #f2f4f4;
+    background-color: var(--ic-brand-font-color-dark);
+    border-color: #384b5b;
 }
 
-.documentation span[style="color:#8C8C8D"] { color: #cacaca !important; }
-
-.documentation table.material-table th {
-    background-color: #68686b;
+.btn:hover, .btn--hover, .Button:hover, .ui-button:hover, .Button--hover, .ui-button.ui-state-hover {
+    color: #f2f4f4;
+    background-color: #475f71;
+    border-color: #384b5b;
 }
 
-.documentation img.copy-img {
-    filter: invert(100%);
+.ic-DashboardCard__header_content, .ic-DashboardCard {
+    background-color: var(--ic-brand-font-color-dark);
 }
 
-.documentation .material-table tr:hover {
-    background-color: #68686b;
+.ic-DashboardCard__link * { color: white; }
+
+.ic-DashboardCard span[style="color: rgb(50, 74, 77);"] {
+    color: rgb(113, 183, 192) !important;
 }
 
-.documentation .tooltip-docs {
-    background-color: #88888e;
-    border: 1px solid #88888e;
+.ic-DashboardCard span[style="color: rgb(77, 61, 77);"] {
+    color: rgb(167, 92, 167) !important;
 }
 
-.documentation .tooltip-docs::before {
-    border-top-color: #88888e;
+.ic-DashboardCard span[style="color: rgb(37, 66, 132);"] {
+    color: rgb(80, 163, 230) !important;
 }
 
-.documentation .tooltip-docs::after {
-    border: 1px solid #88888e;
+.ic-app-header {
+    /* background-color: #252525; */
 }
 
-.documentation nav { background: transparent; }
+/* TO DO: find a better workaround */
+.ic-DashboardCard__header-publish { filter: invert(100%); }
 
-.info-board-blue {
-    background-color: rgba(58, 123, 240, .25);
-    color: white;
-}
-
-.info-board-orange {
-    background-color: #ffbf353d;
-}
-
-.info-board { color: white; }
-.info-board a { color: white; }
-
-#footer-website {
-    background-color: #272728;
-}
-
-#footer-website a { color: white }
-}
-
-@-moz-document domain("apps.apple.com") {
-body { color: white }
-
-body > .ember-view {
-    background-color: #1d1d1f;
-}
-
-.localnav-wrapper {
-    filter: invert(100%);
-    backdrop-filter: blur(30px);
-}
-
-.we-banner {
-    background-color: #333;
-}
-
-.we-banner p {
-    color: #f2f8fc;
-}
-
-.product-header__title.app-header__title { color: white }
-.badge.badge--product-title {
-    color: white;
-    border: 1px solid #fff
-}
-
-.product-header__subtitle.app-header__subtitle {
-    color: #949494;
-}
-
-.whats-new__latest__version {
-    color: #c1c0c0;
-}
-
-.we-customer-ratings__averages,
-.we-customer-ratings__count,
-.we-customer-ratings__averages__display {
+#minical {
+    background: var(--ic-brand-font-color-dark);
     color: white;
 }
 
-.we-star-bar-graph__bar {
-    background-color: #636366;
+#minical .fc-day-top, #calendar-app .fc-day-top {
+    color: white;
 }
 
-.we-star-bar-graph__bar__foreground-bar {
-    background-color: #efeff4
+#minical .fc-day-top.fc-today, #calendar-app .fc-day-top.fc-today {
+    background-color: white !important;
+    color: var(--ic-brand-font-color-dark);
 }
 
-.ember-view.link, .ember-view button.link, a, .is-apps-theme .link {
-    color: #5eacf8;
+#minical .fc-day-top:hover {
+    background-color: rgba(240, 240, 240, 0.2) !important;
 }
 
-.we-customer-review.lockup {
-    background-color: #333;
+#minical .fc-center h2 {
+    color: white;
 }
 
-.we-truncate.we-truncate--single-line.we-customer-review__title {
-    color: #f2f8fc;
+.header-bar { background: transparent; }
+
+#calendar-app .fc-body {
+    background-color: var(--ic-brand-font-color-dark) !important;
 }
 
-.app-privacy__card {
-    background-color: #333
-}
+#calendars-context-list .context_list_context { background-color: transparent; }
+#calendar-list-holder { background-color: transparent; }
 
-.app-privacy__card * {
-    color: #f2f8fc;
-}
-
-.privacy-type__icon * {
-    fill: #5eacf8;
-}
-
-.section__headline {
-    color: #f2f8fc;
-}
-
-.we-lockup__title * { color: white; }
-.we-lockup__subtitle { color: #949494 !important; }
-
-.we-global-footer { filter: invert(100%); }
+#calendar-app .fc-day-header {
+    color: #c4c4c4;
 }
