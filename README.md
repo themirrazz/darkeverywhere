@@ -8,3 +8,4 @@ DarkEverywhere isn't just a "one-stylesheet-fits-all" extension. While that appr
 * [App Store](https://apps.apple.com/)
 * [OpenWeatherMap](https://openweathermap.org/)
 * [Google Drive](https://drive.google.com/)
+* [Canvas by Instructure](https://k12.instructure.com) (experimental!)
